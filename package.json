@@ -17,6 +17,7 @@
   "scripts": {
     "update-grammar": "node ../../build/npm/update-grammar.js ./syntaxes/clips.tmLanguage.json"
   },
+  "icon": "icon.png",
   "contributes": {
     "languages": [
       {
