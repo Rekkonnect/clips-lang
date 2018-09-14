@@ -1,4 +1,4 @@
 {
-	"displayName": "Clips Language Basics",
-	"description": "Provides syntax highlighting and bracket matching in Clips files."
+  "displayName": "Clips Language support",
+  "description": "Provides syntax highlighting and bracket matching in Clips files."
 }

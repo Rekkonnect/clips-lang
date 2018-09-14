@@ -1,28 +1,42 @@
 {
-	"name": "clips",
-	"displayName": "%displayName%",
-	"description": "%description%",
-	"version": "1.0.0",
-	"publisher": "nerg",
-	"engines": { "vscode": "*" },
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/nerg/clips.git"
-	},
-	"scripts": {
-		"update-grammar": "node ../../build/npm/update-grammar.js ./syntaxes/clips.tmLanguage.json"
-	},
-	"contributes": {
-		"languages": [{
-			"id": "clips",
-			"aliases": ["clips","clips"],
-			"extensions": [".clp"],
-			"configuration": "./language-configuration.json"
-		}],
-		"grammars": [{
-			"language": "clips",
-			"scopeName": "clips",
-			"path": "./syntaxes/clips.tmLanguage.json"
-		}]
-	}
+  "name": "clips",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.1",
+  "publisher": "nerg",
+  "maintainers": [
+    "Gilles Renevey <gilles.renevey@gmail.com>"
+  ],
+  "engines": {
+    "vscode": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerg/clips-lang.git"
+  },
+  "scripts": {
+    "update-grammar": "node ../../build/npm/update-grammar.js ./syntaxes/clips.tmLanguage.json"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "clips",
+        "aliases": [
+          "clips",
+          "clips"
+        ],
+        "extensions": [
+          ".clp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "clips",
+        "scopeName": "clips",
+        "path": "./syntaxes/clips.tmLanguage.json"
+      }
+    ]
+  }
 }
