@@ -2,7 +2,7 @@
   "name": "clips-lang",
   "displayName": "%displayName%",
   "description": "%description%",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "publisher": "nerg",
   "maintainers": [
     "Gilles Renevey <gilles.renevey@gmail.com>"
